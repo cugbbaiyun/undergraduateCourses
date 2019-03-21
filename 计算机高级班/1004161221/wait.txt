@@ -1,0 +1,21 @@
+#include<iostream>
+#include<fstream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+int main()
+{
+	int num1,num2;
+	ifstream in("numbers.txt");
+	ofstream out("result.txt");
+	while(in>>num1>>num2)
+	{
+		vector<int> tem;
+		int max1=-999999;
+		if(num1-num2>max1&&num1-num2<=100)max1=num1-num2;
+		if(num2-num1>max1&&num2-num1<=100)max1=num2-num1;
+		if(num1+num2>max1&&num1+num2<=100)max1=num1+num2;
+		if(num1*num2>max1&&num1*num2<=100)max1=num1*num2;
+		out<<max1<<endl;	
+	}
+}

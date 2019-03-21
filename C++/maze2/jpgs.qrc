@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/backjpgs">
+        <file>background.png</file>
+        <file>test.jpg</file>
+        <file>015.jpg</file>
+        <file>051.jpg</file>
+        <file>068.jpg</file>
+        <file>monster14.png</file>
+        <file>monster2.png</file>
+        <file>star.png</file>
+        <file>gameover.png</file>
+        <file>readme.png</file>
+        <file>end0.png</file>
+        <file>end1.png</file>
+        <file>end2.png</file>
+        <file>end3.png</file>
+        <file>monster11.png</file>
+        <file>monster12.png</file>
+        <file>monster13.png</file>
+        <file>monster20.png</file>
+        <file>monster21.png</file>
+        <file>monster22.png</file>
+        <file>monster23.png</file>
+    </qresource>
+</RCC>
