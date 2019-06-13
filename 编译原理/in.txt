@@ -1,0 +1,25 @@
+while(a<b)
+    if(c)
+    x=y+z;
+    else
+    x=y-z;
+a=y;
+o=u;
+j=i;
+
+while(a)
+    while(b)
+        while(c)
+            if(a<d)
+                b=3;
+            else 
+                d=5;
+
+
+if(a[j])
+    while(d)
+        q=6;
+else
+    while(d)
+        q=6;
+a=6/b+5*c-d;
